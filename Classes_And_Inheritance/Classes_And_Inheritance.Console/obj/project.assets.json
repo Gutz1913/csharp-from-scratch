@@ -1,11 +1,30 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Classes_And_Inheritance.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Classes_And_Inheritance.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Classes_And_Inheritance.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Classes_And_Inheritance.Core/1.0.0": {
+      "type": "project",
+      "path": "../Classes_And_Inheritance.Core/Classes_And_Inheritance.Core.csproj",
+      "msbuildProject": "../Classes_And_Inheritance.Core/Classes_And_Inheritance.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Classes_And_Inheritance.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ITM.DESKTOP-6GH284K\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\new_copy\\Classes_And_Inheritance\\Classes_And_Inheritance.Core\\Classes_And_Inheritance.Core.csproj": {
+              "projectPath": "C:\\Projects\\new_copy\\Classes_And_Inheritance\\Classes_And_Inheritance.Core\\Classes_And_Inheritance.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
